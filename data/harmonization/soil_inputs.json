@@ -1,0 +1,26 @@
+{
+  "source_database": "Hawaii_Soils_Data_Unique.db",
+  "source_observations": "combined_soc_2024_04_05.csv",
+  "dates": "2014-2024 observation dates retained",
+  "location_matching": "Same database lookup convention and four soil observations as the original bundled soil sample. Private coordinates and database IDs are omitted; tables share site_id.",
+  "perturbation": "Landsat and climate numeric values multiplied by factors within 0.975-1.025. QA bits and dates unchanged. Carbon and terrain copied from the existing obscured sample.",
+  "sensors": "Landsat 7, 8 and 9 have observations in this period; Landsat 5 has none.",
+  "rows": {
+    "landsat_7 site_01": 1480,
+    "landsat_7 site_02": 612,
+    "landsat_7 site_03": 256,
+    "landsat_7 site_04": 145,
+    "landsat_8 site_01": 4800,
+    "landsat_8 site_02": 1518,
+    "landsat_8 site_03": 984,
+    "landsat_8 site_04": 694,
+    "landsat_9 site_01": 1360,
+    "landsat_9 site_02": 498,
+    "landsat_9 site_03": 268,
+    "landsat_9 site_04": 184,
+    "terraclimate site_01": 132,
+    "terraclimate site_02": 132,
+    "terraclimate site_03": 132,
+    "terraclimate site_04": 132
+  }
+}

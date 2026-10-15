@@ -1,0 +1,32 @@
+{
+  "soil_notebook": "tangarine_USE_THIS_VERSION_Hawaii_Soils_Transformer.ipynb",
+  "soil_notebook_sha256": "221efac5ab5784050f0cbda3a64262d054a1ca9d0d54ab22500aac70f301ba72",
+  "soil_source_cells": {
+    "spatial_matching": 7,
+    "database_lookup": 9,
+    "band_mapping": 10,
+    "band_alignment": 12,
+    "QA_decoder": 14,
+    "LOWESS": 17,
+    "joins": 26
+  },
+  "fire_notebook": "Yet_another_copy_of_fireWeatherTransformer.ipynb",
+  "fire_notebook_sha256": "25c7f58b0a58eb08b04b513ec39a9461a7b339bfd72b5593ee74bdf218b9f0a1",
+  "verbatim_functions": {
+    "align_landsat_bands": "3bb385c37cbfe69b4733bf1f07e3639e24afafbbeb23bf16a974f465e4e68dd3",
+    "decode_qa_pixel": "5205703540bc8b7d3e0cad42e871725fbe47ad68e3c50df821d8ebfff2361dc3",
+    "create_loess_smoothed_dataframe": "242d6389bbf53edaf4f2ce6d6c6522978a2da05154098efef134bf264a155899",
+    "make_time_encoders": "af07902705ee36b4564c7a6de5941edf51412cd0482d958d389e95ad98028e5e",
+    "make_6h_index": "7e4d88150cf73a2298b4e5cc356788f9d17b3900bd72011b81046faa6d8008db",
+    "map_daily_df_to_subdaily": "60d3237a5d690088ad131ac2099196cb9bc07fba2ff2dcd6e301472cdbd9e8e1"
+  },
+  "adaptations": [
+    "Source matching helpers use read-only connections and explicit paths.",
+    "Input samples share obscured site IDs; private spatial matching is described and provided as callable helpers.",
+    "Soil terrain and carbon use the existing perturbed values; reflectance and climate are perturbed before harmonization.",
+    "Source functions are retained for band alignment, QA decoding, LOWESS, nearest-point distances, and fire time alignment.",
+    "Soil joins use the model reflectance bands and precomputed perturbed aspect sine/cosine.",
+    "Fire histograms use bubble radii and bins from the included checkpoint.",
+    "Fire sample uses only complete observed days and full forecast windows."
+  ]
+}

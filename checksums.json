@@ -1,0 +1,23 @@
+{
+  ".gitignore": "04ad411201306e4beae3c3a18b0f2db29e0f4566fd692e4ccb6430b809b21b3a",
+  "README.txt": "52ed7af4701cef45c183256bdc3009a90d28e6e1ed4b314f9df03fcefd356be0",
+  "data/fire_bubbles.csv": "03f4d2c44b33c33b2d07018571cc467be68336119616f70b3a9dd1988742b90a",
+  "data/fire_events.json": "c6cab0355da0dc33368e8d72f5e1cd9628cbd4ed62de2ddd148aa3883d38563e",
+  "data/fire_harmonized.csv": "bc2c945e363f888561cee514b5aaccfc3290f99fe3785975b2a9cc51e5c4bc97",
+  "data/fire_weather.csv": "31c9b6be0524652cbfec1ce550d3183c0713829a01a3d7a7b64ac844c8219c1b",
+  "data/harmonization/soil_climate.csv": "42012a7086da0242f4545fd2397856a1ac9e52b894985a378199c58ebc6e8fcd",
+  "data/harmonization/soil_inputs.json": "71d2956a9614381ffd58aa3f1b31de4ac7cb9d50569166716347c95abf588e31",
+  "data/harmonization/soil_landsat.csv": "0122e69ac1ae7cf78a475bf16d6676ea2fe70926aeff9856c27591cc5830ce46",
+  "data/harmonization/soil_sites.csv": "54c1024b6a3e42231b185229d6efea6637c8a90970fa1e00fad669f89c43a8bf",
+  "data/soil_carbon_harmonized.csv": "7c117ab3a240d858bed7a8211a0469259980634caa11dbc1dbfccf953b2d85dd",
+  "data/soil_notes.json": "a30860bd2a6713a75bdb93a1235a80214e640302ee344f55bc7b390a7dc73e0f",
+  "data_harmonization.ipynb": "dd59433c84c37a0c91e46394fc4b79d68b70d30bffed23a7da78d70d73628dbd",
+  "harmonization_source.json": "fbeda9488b690790986ad32e8adbcb62e23ea28141d331952630ae7a8d365cff",
+  "models/fire_config.json": "6b5594fc0f1fbdf0537dfbd1014751c31142f802a2d722cb765af86cdd2367b4",
+  "models/fire_weights.pt": "860cfbd4984f09c3b588f12730b04ab530183564a09f726df2160ee52b5c300f",
+  "models/soil_normalization.json": "8cb3ca1be694fae18e048d731e699267a183947df93954797298a86bc081712e",
+  "models/soil_weights.pt": "da82517014242eedd9d249cf9d2a4fb790a750a93048a2370a8c3f0acb6d227d",
+  "requirements.txt": "4872f9727cb02a34f7b49ceed8f3f4fd0bd10279a76436c742659a2bab4191a9",
+  "soil_production_source.json": "b360e312f30bcacb4c1a94cde56fcafae7b27c29a31879ba34a1570ab152e420",
+  "transformer_walkthrough.ipynb": "899d089a66d065e153a90227d04f8632842b1e3f89ccdc7ca3065affcebf5752"
+}

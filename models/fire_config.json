@@ -1,0 +1,289 @@
+{
+  "model_class": "TimeSeriesTransformer",
+  "model_config": {
+    "seq_length": 120,
+    "input_dim": 34,
+    "n_weather": 288,
+    "n_bins": 60,
+    "n_time": 60,
+    "model_dim": 256,
+    "num_heads": 8,
+    "num_layers": 6,
+    "dropout": 0.1
+  },
+  "selected_feature_cols": [
+    "Downward_Long-Wave_Radp_Flux_surface_6_Hour_Average",
+    "Downward_Short-Wave_Radiation_Flux_surface_6_Hour_Average",
+    "Geopotential_height_surface",
+    "Latent_heat_net_flux_surface_6_Hour_Average",
+    "Maximum_specific_humidity_at_2m_height_above_ground_6_Hour_Interval",
+    "Maximum_temperature_height_above_ground_6_Hour_Interval",
+    "Minimum_specific_humidity_at_2m_height_above_ground_6_Hour_Interval",
+    "Minimum_temperature_height_above_ground_6_Hour_Interval",
+    "Potential_Evaporation_Rate_surface_6_Hour_Average",
+    "Precipitation_rate_surface_6_Hour_Average",
+    "Pressure_surface",
+    "Sensible_heat_net_flux_surface_6_Hour_Average",
+    "Specific_humidity_height_above_ground",
+    "Temperature_height_above_ground",
+    "Upward_Long-Wave_Radp_Flux_surface_6_Hour_Average",
+    "Upward_Short-Wave_Radiation_Flux_surface_6_Hour_Average",
+    "Volumetric_Soil_Moisture_Content_depth_below_surface_layer_150_cm",
+    "Volumetric_Soil_Moisture_Content_depth_below_surface_layer_25_cm",
+    "Volumetric_Soil_Moisture_Content_depth_below_surface_layer_5_cm",
+    "Volumetric_Soil_Moisture_Content_depth_below_surface_layer_70_cm",
+    "latitude",
+    "longitude",
+    "u-component_of_wind_height_above_ground",
+    "v-component_of_wind_height_above_ground"
+  ],
+  "fire_target_cols": [
+    "bin_00",
+    "bin_01",
+    "bin_02",
+    "bin_03",
+    "bin_04"
+  ],
+  "encoder_cols": [
+    "diurnal_sin",
+    "diurnal_cos",
+    "annual_sin",
+    "annual_cos",
+    "fire_day"
+  ],
+  "output_weather_cols": [
+    "Downward_Long-Wave_Radp_Flux_surface_6_Hour_Average",
+    "Downward_Short-Wave_Radiation_Flux_surface_6_Hour_Average",
+    "Geopotential_height_surface",
+    "Latent_heat_net_flux_surface_6_Hour_Average",
+    "Maximum_specific_humidity_at_2m_height_above_ground_6_Hour_Interval",
+    "Maximum_temperature_height_above_ground_6_Hour_Interval",
+    "Minimum_specific_humidity_at_2m_height_above_ground_6_Hour_Interval",
+    "Minimum_temperature_height_above_ground_6_Hour_Interval",
+    "Potential_Evaporation_Rate_surface_6_Hour_Average",
+    "Precipitation_rate_surface_6_Hour_Average",
+    "Pressure_surface",
+    "Sensible_heat_net_flux_surface_6_Hour_Average",
+    "Specific_humidity_height_above_ground",
+    "Temperature_height_above_ground",
+    "Upward_Long-Wave_Radp_Flux_surface_6_Hour_Average",
+    "Upward_Short-Wave_Radiation_Flux_surface_6_Hour_Average",
+    "Volumetric_Soil_Moisture_Content_depth_below_surface_layer_150_cm",
+    "Volumetric_Soil_Moisture_Content_depth_below_surface_layer_25_cm",
+    "Volumetric_Soil_Moisture_Content_depth_below_surface_layer_5_cm",
+    "Volumetric_Soil_Moisture_Content_depth_below_surface_layer_70_cm",
+    "latitude",
+    "longitude",
+    "u-component_of_wind_height_above_ground",
+    "v-component_of_wind_height_above_ground"
+  ],
+  "output_fire_cols": [
+    "bin_00",
+    "bin_01",
+    "bin_02",
+    "bin_03",
+    "bin_04"
+  ],
+  "output_time_cols": [
+    "diurnal_sin",
+    "diurnal_cos",
+    "annual_sin",
+    "annual_cos",
+    "fire_day"
+  ],
+  "input_feature_cols": [
+    "Downward_Long-Wave_Radp_Flux_surface_6_Hour_Average",
+    "Downward_Short-Wave_Radiation_Flux_surface_6_Hour_Average",
+    "Geopotential_height_surface",
+    "Latent_heat_net_flux_surface_6_Hour_Average",
+    "Maximum_specific_humidity_at_2m_height_above_ground_6_Hour_Interval",
+    "Maximum_temperature_height_above_ground_6_Hour_Interval",
+    "Minimum_specific_humidity_at_2m_height_above_ground_6_Hour_Interval",
+    "Minimum_temperature_height_above_ground_6_Hour_Interval",
+    "Potential_Evaporation_Rate_surface_6_Hour_Average",
+    "Precipitation_rate_surface_6_Hour_Average",
+    "Pressure_surface",
+    "Sensible_heat_net_flux_surface_6_Hour_Average",
+    "Specific_humidity_height_above_ground",
+    "Temperature_height_above_ground",
+    "Upward_Long-Wave_Radp_Flux_surface_6_Hour_Average",
+    "Upward_Short-Wave_Radiation_Flux_surface_6_Hour_Average",
+    "Volumetric_Soil_Moisture_Content_depth_below_surface_layer_150_cm",
+    "Volumetric_Soil_Moisture_Content_depth_below_surface_layer_25_cm",
+    "Volumetric_Soil_Moisture_Content_depth_below_surface_layer_5_cm",
+    "Volumetric_Soil_Moisture_Content_depth_below_surface_layer_70_cm",
+    "latitude",
+    "longitude",
+    "u-component_of_wind_height_above_ground",
+    "v-component_of_wind_height_above_ground",
+    "bin_00",
+    "bin_01",
+    "bin_02",
+    "bin_03",
+    "bin_04",
+    "diurnal_sin",
+    "diurnal_cos",
+    "annual_sin",
+    "annual_cos",
+    "fire_day"
+  ],
+  "output_feature_cols": [
+    "Downward_Long-Wave_Radp_Flux_surface_6_Hour_Average",
+    "Downward_Short-Wave_Radiation_Flux_surface_6_Hour_Average",
+    "Geopotential_height_surface",
+    "Latent_heat_net_flux_surface_6_Hour_Average",
+    "Maximum_specific_humidity_at_2m_height_above_ground_6_Hour_Interval",
+    "Maximum_temperature_height_above_ground_6_Hour_Interval",
+    "Minimum_specific_humidity_at_2m_height_above_ground_6_Hour_Interval",
+    "Minimum_temperature_height_above_ground_6_Hour_Interval",
+    "Potential_Evaporation_Rate_surface_6_Hour_Average",
+    "Precipitation_rate_surface_6_Hour_Average",
+    "Pressure_surface",
+    "Sensible_heat_net_flux_surface_6_Hour_Average",
+    "Specific_humidity_height_above_ground",
+    "Temperature_height_above_ground",
+    "Upward_Long-Wave_Radp_Flux_surface_6_Hour_Average",
+    "Upward_Short-Wave_Radiation_Flux_surface_6_Hour_Average",
+    "Volumetric_Soil_Moisture_Content_depth_below_surface_layer_150_cm",
+    "Volumetric_Soil_Moisture_Content_depth_below_surface_layer_25_cm",
+    "Volumetric_Soil_Moisture_Content_depth_below_surface_layer_5_cm",
+    "Volumetric_Soil_Moisture_Content_depth_below_surface_layer_70_cm",
+    "latitude",
+    "longitude",
+    "u-component_of_wind_height_above_ground",
+    "v-component_of_wind_height_above_ground",
+    "bin_00",
+    "bin_01",
+    "bin_02",
+    "bin_03",
+    "bin_04",
+    "diurnal_sin",
+    "diurnal_cos",
+    "annual_sin",
+    "annual_cos",
+    "fire_day"
+  ],
+  "lookback_days": 30,
+  "predict_days": 3,
+  "step_hours": 6,
+  "steps_per_day": 4,
+  "lookback_steps": 120,
+  "predict_steps": 12,
+  "hours_to_keep": [
+    0,
+    6,
+    12,
+    18
+  ],
+  "drop_feb29": false,
+  "n_weather_targets": 24,
+  "n_fire_targets": 5,
+  "n_time_targets": 5,
+  "bin_edges": [
+    0.0,
+    10.0,
+    100.0,
+    1000.0,
+    10000.0,
+    "Infinity"
+  ],
+  "fire_representation": "daily bubble diameter frequency",
+  "minmax_params": {
+    "Downward_Long-Wave_Radp_Flux_surface_6_Hour_Average": {
+      "min": 120.0,
+      "max": 502.0
+    },
+    "Downward_Short-Wave_Radiation_Flux_surface_6_Hour_Average": {
+      "min": 0.0,
+      "max": 1026.4371
+    },
+    "Geopotential_height_surface": {
+      "min": -149.4080047607422,
+      "max": 2947.93603515625
+    },
+    "Latent_heat_net_flux_surface_6_Hour_Average": {
+      "min": -40.0,
+      "max": 2157.0
+    },
+    "Maximum_specific_humidity_at_2m_height_above_ground_6_Hour_Interval": {
+      "min": 0.0,
+      "max": 0.3427499830722809
+    },
+    "Maximum_temperature_height_above_ground_6_Hour_Interval": {
+      "min": 233.8,
+      "max": 327.9
+    },
+    "Minimum_specific_humidity_at_2m_height_above_ground_6_Hour_Interval": {
+      "min": -0.00499,
+      "max": 0.2080699950456619
+    },
+    "Minimum_temperature_height_above_ground_6_Hour_Interval": {
+      "min": 231.1,
+      "max": 321.7
+    },
+    "Potential_Evaporation_Rate_surface_6_Hour_Average": {
+      "min": -40.0,
+      "max": 32882.0
+    },
+    "Precipitation_rate_surface_6_Hour_Average": {
+      "min": 0.0,
+      "max": 0.008232
+    },
+    "Pressure_surface": {
+      "min": 69200.0,
+      "max": 105290.0
+    },
+    "Sensible_heat_net_flux_surface_6_Hour_Average": {
+      "min": -969.0,
+      "max": 41644.0
+    },
+    "Specific_humidity_height_above_ground": {
+      "min": -0.004465,
+      "max": 0.035168
+    },
+    "Temperature_height_above_ground": {
+      "min": 231.869,
+      "max": 324.762
+    },
+    "Upward_Long-Wave_Radp_Flux_surface_6_Hour_Average": {
+      "min": 153.0,
+      "max": 709.0
+    },
+    "Upward_Short-Wave_Radiation_Flux_surface_6_Hour_Average": {
+      "min": 0.0,
+      "max": 671.0
+    },
+    "Volumetric_Soil_Moisture_Content_depth_below_surface_layer_150_cm": {
+      "min": 0.1075,
+      "max": 0.464
+    },
+    "Volumetric_Soil_Moisture_Content_depth_below_surface_layer_25_cm": {
+      "min": 0.0503,
+      "max": 0.4647
+    },
+    "Volumetric_Soil_Moisture_Content_depth_below_surface_layer_5_cm": {
+      "min": 0.049,
+      "max": 0.468
+    },
+    "Volumetric_Soil_Moisture_Content_depth_below_surface_layer_70_cm": {
+      "min": 0.0469,
+      "max": 0.4595
+    },
+    "latitude": {
+      "min": 32.628842223079694,
+      "max": 41.8585951613078
+    },
+    "longitude": {
+      "min": -124.21882572389498,
+      "max": -114.13644438673651
+    },
+    "u-component_of_wind_height_above_ground": {
+      "min": -17.15,
+      "max": 373.3699951171875
+    },
+    "v-component_of_wind_height_above_ground": {
+      "min": -16.56,
+      "max": 432.1799926757813
+    }
+  }
+}

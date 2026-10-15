@@ -1,0 +1,31 @@
+{
+  "source_notebook": "transformers/tangarine_USE_THIS_VERSION_Hawaii_Soils_Transformer.ipynb",
+  "source_notebook_sha256": "221efac5ab5784050f0cbda3a64262d054a1ca9d0d54ab22500aac70f301ba72",
+  "zero_based_source_cells": {
+    "features": 31,
+    "sequences_dataset_normalization": 33,
+    "model_class": 37,
+    "model_configuration": 39,
+    "loss_optimizer": 41,
+    "training_loop": 45,
+    "prediction_loop": 47
+  },
+  "verbatim_code_sha256": {
+    "TimeSeriesTransformer": "9a56e6c84d776dc0e5fdd114943b98d48cc99dc1324f0d47a71acf3b1a29815d",
+    "create_sequences": "b8836dd0c11909055f77feb868de4facc8a4c5e934d4512734cf68beb549a9aa",
+    "TimeSeriesDataset": "85069ba64ec8edf8a93eba3889034b76653632d1de554ef17e34d8838a4d0082",
+    "training_loop": "aa27ddb74300a4c3cfd68430fc655ca5aeb97b074ce42a32c9f106008d7de40c",
+    "prediction_loop": "be61f5362bd5b7d702681da10fed7c350eaf081565585005226d8d5e11a1772f"
+  },
+  "checkpoint_source": "transformers/model.pth",
+  "checkpoint_source_sha256": "b81b4fd61edd54e6c21ffbc916c90428f34544d7ee0a221a85fcd7ee89046744",
+  "checkpoint_lineage": "Original saved artifact; strict loading and inference verified with the owner-selected source implementation. Exact historical training execution is not recorded in a run manifest.",
+  "handoff_adapters": [
+    "harmonization notebook prepares obscured Landsat, climate and terrain observations; site_id renamed unique_id",
+    "sample rows explicitly sorted before production sequence function",
+    "relative paths and automatic GPU selection",
+    "tensor state dictionary loading with weights_only=True",
+    "display dates and compact tables/plots",
+    "training code commented out as requested"
+  ]
+}

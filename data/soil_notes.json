@@ -1,0 +1,12 @@
+{
+  "dataset": "soil_carbon_harmonized.csv",
+  "sites": 4,
+  "rows": 536,
+  "coordinates_exported": false,
+  "source_identifiers_exported": false,
+  "source": "soil observations with Landsat, TerraClimate and terrain covariates",
+  "preparation": "Landsat 7, 8 and 9 observations from 2014-2024; band alignment; cloud/shadow/snow masking; three-standard-deviation filtering; source LOWESS smoothing; 30-day interpolation; backward monthly climate join",
+  "obscuring": "Fresh site IDs; coordinates and original IDs omitted. Landsat and climate numeric values multiplied by factors within 0.975-1.025; acquisition dates and QA flags retained. Terrain and carbon inherited from the earlier obscured sample: terrain offset by up to 3% of training standard deviation; carbon multiplied by a site-constant factor between 0.97 and 1.03; aspect perturbed before sine/cosine.",
+  "input_details": "harmonization/soil_inputs.json",
+  "purpose": "small teaching dataset derived from observations; no formal anonymity guarantee; not a scientific validation dataset"
+}

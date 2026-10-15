@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+transformer-handoff.zip
+data/soil_carbon_obscured.csv

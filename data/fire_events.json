@@ -1,0 +1,38 @@
+[
+  {
+    "fire_id": "2002-NVHTF-001233",
+    "event_start": "2002-06-15",
+    "sample_last_day": "2002-06-22",
+    "bubble_source": "2002-NVHTF-001233.gpkg",
+    "bubble_source_sha256": "6f2ed07fd0a84ba5b637af5911f30510284eed08c7902181a34f729d2edb19ac",
+    "weather_latitude": 38.32888430388078,
+    "weather_longitude": -119.5313320872475,
+    "weather_selection": "nearest grid point to mean bubble centre, among grid vintages covering the entire sample",
+    "weather_rows": 152,
+    "bubble_rows": 12108
+  },
+  {
+    "fire_id": "2007-CASBC-005316",
+    "event_start": "2007-07-06",
+    "sample_last_day": "2007-07-13",
+    "bubble_source": "2007-CASBC-005316.gpkg",
+    "bubble_source_sha256": "abb9b4c207b8dd977f9894036120bb0445ba5b1d8f9a108bd25472fc831719d1",
+    "weather_latitude": 34.89455033012059,
+    "weather_longitude": -120.1563312388005,
+    "weather_selection": "nearest grid point to mean bubble centre, among grid vintages covering the entire sample",
+    "weather_rows": 152,
+    "bubble_rows": 10332
+  },
+  {
+    "fire_id": "2012-CAMNFC-001109",
+    "event_start": "2012-07-08",
+    "sample_last_day": "2012-07-15",
+    "bubble_source": "2012-CAMNFC-001109.gpkg",
+    "bubble_source_sha256": "b9a0bc8c4c602ef1e7b1d0d2fb053c2f6f906141dde089b25624569b0cab7d12",
+    "weather_latitude": 39.40552994659736,
+    "weather_longitude": -122.62507034310433,
+    "weather_selection": "nearest grid point to mean bubble centre, among grid vintages covering the entire sample",
+    "weather_rows": 152,
+    "bubble_rows": 12858
+  }
+]
