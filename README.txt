@@ -44,11 +44,3 @@ files. The fire perimeter example also requires geopandas.
 
 The modeling notebook reads data/soil_carbon_harmonized.csv and
 data/fire_harmonized.csv. Both generated tables are included in this folder.
-
-Repository handoff:
-    The notebooks, data/ and models/ are the runnable package.
-    The local virtual environment, transformer-handoff.zip and superseded
-    soil_carbon_obscured.csv are excluded from Git. Install requirements.txt
-    in a new environment after cloning.
-    checksums.json records SHA-256 hashes of the package files; it does not
-    include itself or the ZIP archive. The local ZIP may be an older snapshot.
